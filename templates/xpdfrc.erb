@@ -56,7 +56,7 @@ fontFile ZapfDingbats		<%= @gsfontsdir %>/d050000l.pfb
 
 # Set the default PostScript file or command.
 
-<% @printcommand %>
+<% if @printcommand %>
 psFile			"<%= @printcommand %>"
 <% end %>
 
