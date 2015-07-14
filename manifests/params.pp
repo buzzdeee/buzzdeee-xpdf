@@ -4,6 +4,7 @@
 class xpdf::params {
   $configfile     = '/etc/xpdfrc'
   $gsfontsdir     = '/usr/local/share/ghostscript/fonts'
+  $msttfontsdir   = '/usr/local/share/fonts/mscorefonts'
   $printcommand   = '|lpr -Plp'
   $papersize      = 'A4'
   $textencoding   = 'UTF-8'

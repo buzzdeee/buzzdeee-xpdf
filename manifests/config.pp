@@ -4,6 +4,7 @@
 class xpdf::config (
   $configfile,
   $gsfontsdir,
+  $msttfontsdir,
   $printcommand,
   $papersize,
   $textencoding,

@@ -38,6 +38,7 @@
 class xpdf (
   $configfile     = $::xpdf::params::configfile,
   $gsfontsdir     = $::xpdf::params::gsfontsdir,
+  $msttfontsdir   = $::xpdf::params::msttfontsdir,
   $printcommand   = $::xpdf::params::printcommand,
   $papersize      = $::xpdf::params::papersize,
   $textencoding   = $::xpdf::params::textencoding,
@@ -57,6 +58,7 @@ class xpdf (
   class { 'xpdf::config':
     configfile     => $configfile,
     gsfontsdir     => $gsfontsdir,
+    msttfontsdir   => $msttfontsdir,
     printcommand   => $printcommand,
     papersize      => $papersize,
     textencoding   => $textencoding,
